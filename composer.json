@@ -16,25 +16,9 @@
     "vendor/guzzlehttp/guzzle": "^6.5.5",
     "ext-json": "*"
   },
-  "provide": {
-    "psr/http-client-implementation": "1.0"
-  },
-  "require-dev": {
-    "ext-curl": "*"
-  },
-  "suggest": {
-    "ext-curl": "Required for CURL handler support",
-    "ext-intl": "Required for Internationalized Domain Name (IDN) support",
-    "psr/log": "Required for using the Log middleware"
-  },
   "config": {
     "preferred-install": "dist",
     "sort-packages": true
-  },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "2.3.x-dev"
-    }
   },
   "autoload": {
     "psr-4": {
