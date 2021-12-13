@@ -1,0 +1,51 @@
+{
+  "name": "hasanbasri1993/bsi-maja",
+  "description": "Guzzle is a PHP HTTP client library",
+  "keywords": [
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hasan Basri",
+      "email": "hasanbasri1493@gmail.com",
+      "homepage": "https://hasanbasri83.com"
+    }
+  ],
+  "require": {
+    "php": "~7.4",
+    "vendor/guzzlehttp/guzzle": "^6.5.5",
+    "ext-json": "*"
+  },
+  "provide": {
+    "psr/http-client-implementation": "1.0"
+  },
+  "require-dev": {
+    "ext-curl": "*"
+  },
+  "suggest": {
+    "ext-curl": "Required for CURL handler support",
+    "ext-intl": "Required for Internationalized Domain Name (IDN) support",
+    "psr/log": "Required for using the Log middleware"
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "7.4-dev"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "BSIMAJA\\": "src/"
+    },
+    "files": [
+      "src/functions_include.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+    }
+  }
+}
