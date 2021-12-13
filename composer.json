@@ -1,6 +1,6 @@
 {
   "name": "hasanbasri1993/bsi-maja",
-  "description": "Guzzle is a PHP HTTP client library",
+  "description": "BSI MAJA client library",
   "keywords": [
   ],
   "license": "MIT",
@@ -8,7 +8,7 @@
     {
       "name": "Hasan Basri",
       "email": "hasanbasri1493@gmail.com",
-      "homepage": "https://hasanbasri83.com"
+      "homepage": "https://hasanbasri93.com"
     }
   ],
   "require": {
@@ -33,7 +33,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "7.4-dev"
+      "master": "1.1.x-dev"
     }
   },
   "autoload": {
