@@ -102,7 +102,7 @@
 		
 		function cancelInvoice($body)
 		{
-			if (isset($body['va']) || isset($body['invoiceNumber']) || isset($body['amount']) == false)
+			if (isset($body['invoiceNumber']) == false || isset($body['va']) == false || isset($body['amount']) == false )
 				return "va, invoiceNumber, amount is required";
 			try {
 				$response = $this->client->request('POST', $this->getUrlMaja . "cancel", [
