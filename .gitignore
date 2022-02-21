@@ -1,3 +1,9 @@
 composer.lock
 vendor/
-.idea
+.idea/
+.env
+
+# Don't save phpunit under version control.
+phpunit
+/phpunit*.xml
+/.phpunit.*.cache
